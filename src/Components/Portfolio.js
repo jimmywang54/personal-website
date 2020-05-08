@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import "../App.css";
 
-import { Card, Button, Container, Row } from "react-bootstrap";
+import { Card, Button, Container, Row, Badge } from "react-bootstrap";
 
 class Portolio extends Component {
   render() {
@@ -41,6 +41,18 @@ class Portolio extends Component {
 
     return (
       <div className="portolio">
+        <div className='portfolio-stacks'>
+            <h3>TEch Stacks</h3>
+            <Badge className='portfolio-badge' variant='primary'>React</Badge>
+            <Badge className='portfolio-badge' variant='success'>Play</Badge>
+            <Badge className='portfolio-badge' variant='danger'>Scala</Badge>
+            <Badge className='portfolio-badge' variant='warning'>Spark</Badge>
+            <Badge className='portfolio-badge' variant='success'>Node.js</Badge>
+            <Badge className='portfolio-badge' variant='dark'>Flask</Badge>
+            <Badge className='portfolio-badge' variant='success'>Spring Boot</Badge>
+            <Badge className='portfolio-badge' variant='info'>SQL</Badge>
+            <Badge className='portfolio-badge' variant='success'>MongoDB</Badge>
+        </div>
         <Container>
           <Row className='portfolio-row'>
             {projects.map((project) => (
@@ -49,7 +61,7 @@ class Portolio extends Component {
                 <Card.Body>
                   <Card.Title>{project.name}</Card.Title>
                   <Card.Text>{project.description}</Card.Text>
-                  <Button href={project.webUrl} target='_blank' variant="primary">
+                  <Button href={project.webUrl} target='_blank' variant="outline-info">
                     Take a Look
                   </Button>
                 </Card.Body>

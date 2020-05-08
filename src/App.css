@@ -6,6 +6,7 @@
   background-color: rgb(29, 8, 46);
   height: 50px;
   color: white;
+  font-size: large;
 }
 
 .bar-title {
@@ -69,12 +70,23 @@
   text-align: left;
   margin: 10px;
   float: left;
-  width: 600px;
+  width: 500px;
 }
 
 .about-carousel-block {
   margin: 10px;
   float: left;
+}
+
+.portfolio-stacks {
+  margin: 20px;
+  text-align: left;
+  font-family: monospace;
+  font-size: x-large;
+}
+
+.portfolio-badge {
+  margin-right: 10px;
 }
 
 .portfolio-card {
@@ -83,4 +95,8 @@
 
 .protfolio-card-img {
   height: 190px;
+}
+
+.contact-button {
+  margin: 10px;
 }
