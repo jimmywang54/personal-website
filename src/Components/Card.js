@@ -9,7 +9,6 @@ const slides = [
   { id: 3, url: process.env.PUBLIC_URL + '/images/IMG_4.jpg' },
   { id: 4, url: process.env.PUBLIC_URL + '/images/IMG_5.jpg' },
   { id: 5, url: process.env.PUBLIC_URL + '/images/IMG_6.jpg' },
-  { id: 6, url: process.env.PUBLIC_URL + '/images/IMG_7.jpg' },
 ]
 
 const Card = () => {
@@ -20,7 +19,7 @@ const Card = () => {
     leave: { opacity: 0 },
     config: config.molasses,
   })
-  useEffect(() => void setInterval(() => set(state => (state + 1) % 4), 5000), [])
+  useEffect(() => void setInterval(() => set(state => (state + 1) % slides.length), 5000), [])
   return transitions.map(({ item, props, key }) => (
     <animated.div
       key={key}

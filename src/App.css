@@ -2,5 +2,57 @@
   text-align: center;
 }
 
+.bar-main {
+  background-color: rgb(29, 8, 46);
+  height: 50px;
+  color: white;
+}
+
+.bar-title {
+  float: left;
+  color: white;
+  font-family: monospace;
+  margin-top: 11px;
+  margin-left: 40px;
+  font-weight: bold;
+}
+
+.bar-item {
+  float: right;
+  font-family: monospace;
+  font-size: 100%;
+  margin-right: 40px;
+  margin-top: 9px;
+}
+
+.bar-dash {
+  background-color: rgb(39, 170, 72);
+  height: 2px;
+}
 
 
+.home-intro {
+  height: 500px;
+  width: 100%;
+  background-color: rgb(210, 202, 230);
+  background-image: url(./images/bgPic.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.home-photo {
+  width: 100px;
+  height: 100px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.home-name {
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.home-brief {
+  font-family: monospace;
+}
