@@ -17,7 +17,7 @@ class App extends Component {
           <Bar />
           <div className='container-routes'>
             <Switch>
-              <Route exact path='/' render={() => <Home />} />
+              <Route exact path={['/', '/personal-website']} render={() => <Home />} />
               <Route exact path='/about' render={() => <About />} />
               <Route exact path='/portfolio' render={() => <Portolio />} />
               <Route exact path='/contact' render={() => <Contact />} />
