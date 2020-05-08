@@ -12,7 +12,7 @@ class Home extends Component {
       <div className="home">
         <div className='home-intro'>
             <Container>
-                <Image className='home-photo' src='../images/photo_2inch.jpg' roundedCircle />
+                <Image className='home-photo' src={process.env.PUBLIC_URL + '/images/IMG_me.jpg'} roundedCircle />
             </Container>
             <h3 className='home-name'>PinHo (Jimmy) Wang</h3>
             <h4 className='home-brief'>
