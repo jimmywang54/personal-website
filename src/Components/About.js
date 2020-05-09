@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import ControlledCarousel from "./ControlledCarousel";
 
+import { Link } from 'react-router-dom';
+
 import "../App.css";
 
 class About extends Component {
@@ -19,8 +21,8 @@ class About extends Component {
                 He is currently seeking for software engineer position and desires to dedicate on 
                 amazing products using by millions of people. <br/> Previously, he worked as a software engineer 
                 intern at IBM majorly working on threat intelligence applications. 
-                He also dedicated on web application projects and got his Masters at Northeastern University. 
-                For more info, check out his <a href='/portfolio'>projects</a>, <a href={process.env.PUBLIC_URL + '/Resume.pdf'}>Resume</a> and <a href='https://www.linkedin.com/in/pinhowang/'>Linkedin</a>.
+                He also accomplished some web application projects and got his Masters at Northeastern University. 
+                For more info, check out his <Link to='/portfolio'>projects</Link>, <a href={process.env.PUBLIC_URL + '/Resume.pdf'}>Resume</a> and <a href='https://www.linkedin.com/in/pinhowang/'>Linkedin</a>.
             </p>
         </div>
       </div>

@@ -42,7 +42,9 @@ class Portolio extends Component {
     return (
       <div className="portolio">
         <div className='portfolio-stacks'>
-            <h3>TEch Stacks</h3>
+            <h3>Tech Stacks</h3>
+            <Badge className='portfolio-badge' variant='danger'>HTML</Badge>
+            <Badge className='portfolio-badge' variant='dark'>CSS</Badge>
             <Badge className='portfolio-badge' variant='primary'>React</Badge>
             <Badge className='portfolio-badge' variant='success'>Play</Badge>
             <Badge className='portfolio-badge' variant='danger'>Scala</Badge>
