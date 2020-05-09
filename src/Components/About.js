@@ -22,7 +22,8 @@ class About extends Component {
                 amazing products using by millions of people. <br/> Previously, he worked as a software engineer 
                 intern at IBM majorly working on threat intelligence applications. 
                 He also accomplished some web application projects and got his Masters at Northeastern University. 
-                For more info, check out his <Link to='/portfolio'>projects</Link>, <a href={process.env.PUBLIC_URL + '/Resume.pdf'}>Resume</a> and <a href='https://www.linkedin.com/in/pinhowang/'>Linkedin</a>.
+                For more info, check out his <Link to='/portfolio'>projects</Link>, 
+                <a href={process.env.PUBLIC_URL + '/Resume.pdf'} target='_blank' rel="noopener noreferrer">Resume</a> and <a href='https://www.linkedin.com/in/pinhowang/' target='_blank' rel="noopener noreferrer">Linkedin</a>.
             </p>
         </div>
       </div>
