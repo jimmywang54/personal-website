@@ -18,7 +18,7 @@ class About extends Component {
             <br/>
             <p>
                 Pinho Wang loves programming, snowboarding, hiking, learning and sharing new things.
-                He is currently seeking for software engineer position and desires to dedicate on 
+                He is currently seeking for software  engineer position and desires to dedicate on 
                 amazing products using by millions of people. <br/> Previously, he worked as a software engineer 
                 intern at IBM majorly working on threat intelligence applications. 
                 He also accomplished some web application projects and got his Masters at Northeastern University. 
