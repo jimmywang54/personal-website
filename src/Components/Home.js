@@ -16,8 +16,9 @@ class Home extends Component {
             </Container>
             <h3 className='home-name'>PinHo (Jimmy) Wang</h3>
             <h4 className='home-brief'>
-                New Grad Software Engineer<br />
-                Love Full Stack Techniques
+                Motivated developer and learner with strong programming skills in Java, Javascript and Scala<br />
+                Experienced creating custom websites through React.js, Node.js and Spring Boot<br />
+                Seeking a full time position in Software Engineer, Full Stack Engineer
             </h4>
         </div>
       </div>
